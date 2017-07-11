@@ -102,24 +102,24 @@
 
     // create the initial directions object, from which the layer
     // and inputs will pull data.
-    var directions = L.mmrp();
+    var directions = L.air();
 
-    var directionsLayer = L.mmrp.layer(directions)
+    var directionsLayer = L.air.layer(directions)
             .addTo(map);
 
-    var directionsInputControl = L.mmrp.inputControl('inputs', directions)
+    var directionsInputControl = L.air.inputControl('inputs', directions)
             .addTo(map);
 
-    var directionsErrorsControl = L.mmrp.errorsControl('errors', directions)
+    var directionsErrorsControl = L.air.errorsControl('errors', directions)
             .addTo(map);
 
-    var directionsRoutesControl = L.mmrp.routesControl('routes', directions)
+    var directionsRoutesControl = L.air.routesControl('routes', directions)
             .addTo(map);
 
-    var directionsInstructionsControl = L.mmrp.instructionsControl('instructions', directions)
+    var directionsInstructionsControl = L.air.instructionsControl('instructions', directions)
             .addTo(map);
 
-    var tracksTableControl = L.mmrp.tracksControl('tracks', directions)
+    var tracksTableControl = L.air.tracksControl('tracks', directions)
             .addTo(map);
 </script>
 </body>
