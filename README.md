@@ -1,4 +1,4 @@
-**NOTES** I made the app offline because of some data privacy agreements. But the codebase here is no problem. 
+**NOTES:** I made the app offline because of some data privacy agreements. But the codebase here is no problem. 
 
 # air online demo 
 
