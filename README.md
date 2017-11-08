@@ -1,4 +1,4 @@
-**NOTES:** I made the app offline because of some data privacy agreements. But the codebase here is no problem. 
+**NOTES:** I made the app offline according to some data privacy agreements. But the codebase here is no problem. If you can prepare a track database on your own, the codes should still work.
 
 # air online demo 
 
